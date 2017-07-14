@@ -230,7 +230,7 @@ class SentryClient extends CApplicationComponent
      */
     protected function log($message, $level)
     {
-        Yii::log($message, $level, 'crisu83.sentry.components.SentryClient');
+        Yii::log($message, $level, 'vintagesucks.sentry.components.SentryClient');
     }
 
     /**
