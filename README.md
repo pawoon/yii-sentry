@@ -1,11 +1,11 @@
 yii-sentry
 ==========
 
-[![Latest Stable Version](https://poser.pugx.org/crisu83/yii-sentry/v/stable.png)](https://packagist.org/packages/crisu83/yii-sentry)
+[![Latest Stable Version](https://poser.pugx.org/pawoon/yii-sentry/v/stable.png)](https://packagist.org/packages/pawoon/yii-sentry)
 
 Sentry for the Yii PHP framework.
 
-yii-sentry is an extension for Yii that allows for sending data to [Sentry](http://getsentry.com). 
+yii-sentry is an extension for Yii that allows for sending data to [Sentry](http://getsentry.com).
 It comes with an application component that allows for centralized access to the Raven client,
 an error handler that sends errors and exception to Sentry and a log route that sends log messages to Sentry.
 It has never been this easy to professionally manage your errors.
@@ -69,7 +69,7 @@ The following configuration parameters are available for the SentryClient:
   * **exclude**: (array) class names of exceptions to exclude
   * **shift_vars**: (bool) whether to shift variables when creating a backtrace
   * **processors**: (array) list of data processors
-                                    
+
 ## Sending errors to Sentry
 
 To enable the SentryErrorHandler add the following to your application configuration:
