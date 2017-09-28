@@ -1,5 +1,5 @@
 {
-    "name": "vintagesucks/yii-sentry",
+    "name": "pawoon/yii-sentry",
     "description": "Sentry for the Yii PHP framework.",
     "keywords": ["yii", "sentry", "log", "error", "exception"],
     "type": "library",
